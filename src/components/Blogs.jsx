@@ -7,7 +7,7 @@ function Blogs() {
   const { posts, loading } = useContext(AppContext);
 
   return (
-    <div className="flex min-h-screen flex-row flex-wrap gap-x-3 justify-center items-center ">
+    <div className="bg-[#433D8B] flex min-h-screen flex-row flex-wrap gap-x-3 justify-center items-center mt-0 ">
       {loading ? (
         <Spinner />
       ) : posts.length === 0 ? (
