@@ -23,7 +23,7 @@ function Pagination() {
           {page < totalPages && (
             <button
               onClick={() => clickHandler(page + 1)}
-              className="border-2 border-black px-2  bg-[#FAF0E6] text-black rounded-md"
+              className="border-2 border-black px-2 font-medium bg-[#FAF0E6] text-black rounded-md"
             >
               Next
             </button>
